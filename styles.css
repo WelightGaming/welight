@@ -4,16 +4,21 @@ body {
 
 
 .textbox {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  width: 200px;
-  height: 30px;
+  width: 300px;
+  height: 40px;
+  padding: 10px;
   font-size: 16px;
   font-family: Arial, sans-serif;
   color: #333;
   background-color: #fff;
   border: 1px solid #ccc;
-  padding: 5px;
-  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+
+.textbox:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
